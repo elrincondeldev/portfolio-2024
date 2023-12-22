@@ -10,7 +10,7 @@ function Projects() {
         <NavBar />
       </nav>
       <main className='flex flex-col gap-16 max-w-[1200px] mx-10'>
-        <section className='flex items-center'>
+        <section className='md:flex hidden items-center'>
           <div className='flex flex-col gap-7'>
             <div className='flex flex-col gap-2'>
               <h1 className='acorn-bold title text-8xl'>My Projects </h1>
@@ -27,10 +27,22 @@ function Projects() {
             width={500}
             height={500}
             alt='Browser image'
-            className='translate-x-[100px]'
+            className='translate-x-[300px] hover:translate-x-[250px] transition-all'
           />
         </section>
-        <section className='flex flex-col items-center gap-10'>
+        <section className='flex md:hidden'>
+          <div className='flex flex-col gap-7'>
+            <div className='flex flex-col gap-5 items-center'>
+              <h1 className='acorn-bold title text-6xl text-center'>My Projects </h1>
+              <h1 className='acorn-bold text-4xl text-center'>Works and personal projects.</h1>
+            </div>
+            <p className='acorn-regular text-lg max-w-[600px] text-center'>
+              I always enjoy working on personal projects, and these are some of
+              the ones I have done over time.
+            </p>
+          </div>
+        </section>
+        <section className='md:flex hidden flex-col items-center gap-10'>
           <h2 className='acorn-bold text-6xl max-w-[600px] text-center'>
             Finished
           </h2>
@@ -51,7 +63,28 @@ function Projects() {
             />
           </div>
         </section>
-        <section className='flex flex-col items-center gap-10'>
+        <section className='flex md:hidden flex-col items-center gap-10'>
+          <h2 className='acorn-bold text-6xl max-w-[600px] text-center'>
+            Finished
+          </h2>
+          <div className='flex flex-col gap-10 justify-between w-full'>
+            <Image
+              className='image-shadow rounded-[40px]'
+              src='/Frame 2.png'
+              width={350}
+              height={300}
+              alt='Foto de un café'
+            />
+            <Image
+              className='image-shadow rounded-[40px]'
+              src='/Frame 1.png'
+              width={700}
+              height={700}
+              alt='Foto de un café'
+            />
+          </div>
+        </section>
+        {/* <section className='md:flex hidden flex-col items-center gap-10'>
           <h2 className='acorn-bold text-6xl max-w-[600px] text-center'>
             In progress
           </h2>
@@ -72,6 +105,27 @@ function Projects() {
             />
           </div>
         </section>
+        <section className='flex md:hidden flex-col items-center gap-10'>
+          <h2 className='acorn-bold text-6xl max-w-[600px] text-center'>
+            In progress
+          </h2>
+          <div className='flex flex-col gap-10 justify-between w-full'>
+            <Image
+              className='image-shadow rounded-[40px]'
+              src='/Frame 1.png'
+              width={700}
+              height={700}
+              alt='Foto de un café'
+            />
+            <Image
+              className='image-shadow rounded-[40px]'
+              src='/Frame 2.png'
+              width={350}
+              height={300}
+              alt='Foto de un café'
+            />
+          </div>
+        </section> */}
         <Footer />
       </main>
     </>
