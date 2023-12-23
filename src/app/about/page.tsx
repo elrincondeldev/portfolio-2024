@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 function About() {
   return (
     <>
-      <nav className='md:h-[150px] h-[100px]'>
+      <nav className='md:h-[150px] h-[100px] z-[20]'>
         <NavBar />
       </nav>
       <main className='flex flex-col gap-16 max-w-[1200px] mx-10 items-center'>

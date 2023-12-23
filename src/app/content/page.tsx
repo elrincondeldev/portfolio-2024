@@ -150,13 +150,13 @@ function Content() {
             </div>
         </section>
         <section className='md:flex hidden flex-col items-center gap-10'>
-          <div className='flex bg-[#FFFFFF] bg-opacity-[10%] rounded-2xl p-10 gap-8'>
+          <div className='flex bg-[#FFFFFF] bg-opacity-[10%] justify-between rounded-2xl p-10 gap-8 w-[100%]'>
             <div>
               <Image
                 className='rounded-3xl'
                 src='/Miniatura 5.png'
-                height={500}
-                width={500}
+                height={320}
+                width={320}
                 alt='Miniatura'
               />
             </div>
@@ -164,8 +164,8 @@ function Content() {
               <Image
                 className='rounded-3xl'
                 src='/Miniatura 6.png'
-                height={500}
-                width={500}
+                height={320}
+                width={320}
                 alt='Miniatura'
               />
             </div>
@@ -173,8 +173,8 @@ function Content() {
               <Image
                 className='rounded-3xl'
                 src='/Miniatura 7.png'
-                height={500}
-                width={500}
+                height={320}
+                width={320}
                 alt='Miniatura'
               />
             </div>

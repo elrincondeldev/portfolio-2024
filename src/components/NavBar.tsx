@@ -73,7 +73,7 @@ function NavBar() {
         </div>
       </div>
       <div className="md:hidden flex justify-between">
-        <div className="flex fixed w-[300px] top-2 justify-center transform -translate-x-1/2 bg-opacity-70 h-16 items-center p-2 rounded-[50px] transition-all duration-[500ms]">
+        <div className="flex fixed top-2 justify-center transform -translate-x-1/2 bg-opacity-70 h-16 items-center p-2 rounded-[50px] transition-all duration-[500ms] bg-black">
           {links.map(({ label, path, action }) => {
             if (action) {
               return (
