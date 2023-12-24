@@ -1071,7 +1071,7 @@ body {
 
 @font-face {
   font-family: 'Acorn-Bold';
-  src: url('https://github.com/jmontes33/portfolio-2024/blob/main/public/fonts/Acorn-Bold.woff');
+  src: url('/fonts/Acorn-Bold.ttf');
 }
 
 h1, h2, h3, p, li {
@@ -1080,7 +1080,7 @@ h1, h2, h3, p, li {
 
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url('/public/fonts/Montserrat-Medium.ttf');
+  src: url('/fonts/Montserrat-Medium.ttf');
 }
 
 .montserrat {
